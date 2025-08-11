@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@config "../../tailwind.config.js";
+
+@font-face {
+  font-family: 'InterCustom';
+  src: url('/src/assets/fonts/Inter/Inter-VariableFont_opsz\,wght.ttf') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+* {
+    font-family: "InterCustom", sans-serif;
+}
